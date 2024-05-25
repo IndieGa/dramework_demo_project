@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 03cb25a4a743d2a4ab6a28d2cd5b7c2b
+  m_SerializeEntries:
+  - m_GUID: f233a9d18e084ed4d8f31601132f87c6
+    m_Address: '#Lobby#CirclePrefabs#Circle#'
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bab84190561518649821de27c90fd3c6
+    m_Address: '#Global#Configs#DemoConfig#'
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb003fd739e931b4abb9cb7f1773d604
+    m_Address: '#Lobby#SquarePrefabs#Square'
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6183544283c19e642b042de72d4bdc67, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 44c34056e2320184e85a06a0662922d3, type: 2}
+    - {fileID: 11400000, guid: b5d6415a79d6fe142963c777a22614a3, type: 2}

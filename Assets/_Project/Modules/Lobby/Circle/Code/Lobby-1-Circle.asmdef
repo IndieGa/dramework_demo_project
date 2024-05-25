@@ -1,0 +1,19 @@
+{
+    "name": "Lobby-1-Circle",
+    "rootNamespace": "",
+    "references": [
+        "GUID:542513d7620468148b75112fbd5f6bf3",
+        "GUID:2f97a2c750c4cef47b310dc020515716",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:291d73888373dbc4e98761a47c9ad789"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

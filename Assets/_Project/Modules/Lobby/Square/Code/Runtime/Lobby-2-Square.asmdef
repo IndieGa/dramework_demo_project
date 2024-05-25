@@ -1,0 +1,19 @@
+{
+    "name": "Lobby-2-Square",
+    "rootNamespace": "",
+    "references": [
+        "IG.HappyCoder.Dramework3",
+        "Generated",
+        "UniTask",
+        "Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

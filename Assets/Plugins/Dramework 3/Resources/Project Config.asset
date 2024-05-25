@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c8693ff2da4f08b73db12eff371a8c, type: 3}
+  m_Name: Project Config
+  m_EditorClassIdentifier: 
+  _logo: {fileID: 2800000, guid: 02c5ba49df7813643958d8e0c33d5b69, type: 3}
+  LockSaveButton: 0
+  HideSaveButton: 0
+  _scenes:
+  - Assets/_Project/Scenes/Global.unity
+  - Assets/_Project/Scenes/Lobby.unity
+  - Assets/_Project/Scenes/Battle.unity
+  _installers:
+  - _enabled: 1
+    _sceneID: Global
+    _order: 1
+    _name: DemoGlobal
+    _assemblyQualifiedName: _Project.Modules.Global.DemoGlobal.Runtime.AssemblyInstaller,
+      Global-1-DemoGlobal, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    _sceneBuildOrder: 0
+  - _enabled: 1
+    _sceneID: Lobby
+    _order: 1
+    _name: Circle
+    _assemblyQualifiedName: _Project.Modules.Lobby.Circle.AssemblyInstaller, Lobby-1-Circle,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    _sceneBuildOrder: 1
+  - _enabled: 1
+    _sceneID: Lobby
+    _order: 2
+    _name: Square
+    _assemblyQualifiedName: _Project.Modules.Lobby.Square.Runtime.AssemblyInstaller,
+      Lobby-2-Square, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    _sceneBuildOrder: 1
+  _remoteFilesUrl: 
+  _remoteFileCatalog: []
+  _useFirebase: 0
+  _password: 
+  _firebaseAppKey: 
+  _firebaseUrl: 
+  _auth:
+    kind: 
+    idToken: 
+    refreshToken: 
+    expiresIn: 
+    _receivedTime: 1716569819
+  _foundResources:
+  - _sceneID: Global
+    _groupID: Configs
+    _id: DemoConfig
+    _assetType: ScriptableObject
+    _assetReference:
+      m_AssetGUID: bab84190561518649821de27c90fd3c6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _loadAtStart: 1
+    _title: 
+  - _sceneID: Lobby
+    _groupID: CirclePrefabs
+    _id: Circle
+    _assetType: GameObject
+    _assetReference:
+      m_AssetGUID: f233a9d18e084ed4d8f31601132f87c6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _loadAtStart: 1
+    _title: 
+  - _sceneID: Lobby
+    _groupID: SquarePrefabs
+    _id: Square
+    _assetType: GameObject
+    _assetReference:
+      m_AssetGUID: eb003fd739e931b4abb9cb7f1773d604
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _loadAtStart: 0
+    _title: 
+  _projectRootFolder: Assets/_Project
+  _resourceFilter: '*'
+  _filteredFoundResources:
+  - _sceneID: Global
+    _groupID: Configs
+    _id: DemoConfig
+    _assetType: ScriptableObject
+    _assetReference:
+      m_AssetGUID: bab84190561518649821de27c90fd3c6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _loadAtStart: 1
+    _title: GlobalConfigsDemoConfig
+  - _sceneID: Lobby
+    _groupID: CirclePrefabs
+    _id: Circle
+    _assetType: GameObject
+    _assetReference:
+      m_AssetGUID: f233a9d18e084ed4d8f31601132f87c6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _loadAtStart: 1
+    _title: LobbyCirclePrefabsCircle
+  - _sceneID: Lobby
+    _groupID: SquarePrefabs
+    _id: Square
+    _assetType: GameObject
+    _assetReference:
+      m_AssetGUID: eb003fd739e931b4abb9cb7f1773d604
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _loadAtStart: 0
+    _title: LobbySquarePrefabsSquare
+  _firebaseConfigurators: []
+  _googleServicesConfig:
+    project_info:
+      project_number: 
+      firebase_url: 
+      project_id: 
+      storage_bucket: 
+    client: []
+    configuration_version: 
+  _playerLoopCustomUpdateConfig:
+    _timerUpdate: 1
+    _earlyUpdate: 1
+    _fixedUpdate: 1
+    _preUpdate: 1
+    _update: 1
+    _preLateUpdate: 1
+    _postLateUpdate: 1
+  _playerLoopTimeUpdateConfig:
+    _timeUpdate: 1
+    _timeUpdateWaitForLastPresentationAndUpdateTime: 1
+  _playerLoopInitializationConfig:
+    _initialization: 1
+    _initializationProfilerStartFrame: 1
+    _initializationUpdateCameraMotionVectors: 1
+    _initializationDirectorSampleTime: 1
+    _initializationAsyncUploadTimeSlicedUpdate: 1
+    _initializationSynchronizeInputs: 1
+    _initializationSynchronizeState: 1
+    _initializationXREarlyUpdate: 1
+  _playerLoopEarlyUpdateConfig:
+    _earlyUpdate: 1
+    _earlyUpdatePollPlayerConnection: 1
+    _earlyUpdateGpuTimestamp: 1
+    _earlyUpdateAnalyticsCoreStatsUpdate: 1
+    _earlyUpdateUnityWebRequestUpdate: 1
+    _earlyUpdateExecuteMainThreadJobs: 1
+    _earlyUpdateProcessMouseInWindow: 1
+    _earlyUpdateClearIntermediateRenderers: 1
+    _earlyUpdateClearLines: 1
+    _earlyUpdatePresentBeforeUpdate: 1
+    _earlyUpdateResetFrameStatsAfterPresent: 1
+    _earlyUpdateUpdateAsyncInstantiate: 1
+    _earlyUpdateUpdateAsyncReadbackManager: 1
+    _earlyUpdateUpdateStreamingManager: 1
+    _earlyUpdateUpdateTextureStreamingManager: 1
+    _earlyUpdateUpdatePreloading: 1
+    _earlyUpdateUpdateContentLoading: 1
+    _earlyUpdateRendererNotifyInvisible: 1
+    _earlyUpdatePlayerCleanupCachedData: 1
+    _earlyUpdateUpdateMainGameViewRect: 1
+    _earlyUpdateUpdateCanvasRectTransform: 1
+    _earlyUpdateXRUpdate: 1
+    _earlyUpdateUpdateInputManager: 1
+    _earlyUpdateProcessRemoteInput: 1
+    _earlyUpdateScriptRunDelayedStartupFrame: 1
+    _earlyUpdateUpdateKinect: 1
+    _earlyUpdateDeliverIosPlatformEvents: 1
+    _earlyUpdateARCoreUpdate: 1
+    _earlyUpdateDispatchEventQueueEvents: 1
+    _earlyUpdatePhysics2DEarlyUpdate: 1
+    _earlyUpdatePhysicsResetInterpolatedTransformPosition: 1
+    _earlyUpdateSpriteAtlasManagerUpdate: 1
+    _earlyUpdatePerformanceAnalyticsUpdate: 1
+  _playerLoopFixedUpdateConfig:
+    _fixedUpdate: 1
+    _fixedUpdateClearLines: 1
+    _fixedUpdateNewInputFixedUpdate: 1
+    _fixedUpdateDirectorFixedSampleTime: 1
+    _fixedUpdateAudioFixedUpdate: 1
+    _fixedUpdateScriptRunBehaviourFixedUpdate: 1
+    _fixedUpdateDirectorFixedUpdate: 1
+    _fixedUpdateLegacyFixedAnimationUpdate: 1
+    _fixedUpdateXRFixedUpdate: 1
+    _fixedUpdatePhysicsFixedUpdate: 1
+    _fixedUpdatePhysics2DFixedUpdate: 1
+    _fixedUpdatePhysicsClothFixedUpdate: 1
+    _fixedUpdateDirectorFixedUpdatePostPhysics: 1
+    _fixedUpdateScriptRunDelayedFixedFrameRate: 1
+  _playerLoopPreUpdateConfig:
+    _preUpdate: 1
+    _preUpdatePhysicsUpdate: 1
+    _preUpdatePhysics2DUpdate: 1
+    _preUpdatePhysicsClothUpdate: 1
+    _preUpdateCheckTexFieldInput: 1
+    _preUpdateIMGUISendQueuedEvents: 1
+    _preUpdateNewInputUpdate: 1
+    _preUpdateSendMouseEvents: 1
+    _preUpdateAIUpdate: 1
+    _preUpdateWindUpdate: 1
+    _preUpdateUpdateVideo: 1
+  _playerLoopUpdateConfig:
+    _update: 1
+    _updateScriptRunBehaviourUpdate: 1
+    _updateScriptRunDelayedDynamicFrameRate: 1
+    _updateScriptRunDelayedTasks: 1
+    _updateDirectorUpdate: 1
+  _playerLoopPreLateUpdateConfig:
+    _preLateUpdate: 1
+    _preLateUpdateAIUpdatePostScript: 1
+    _preLateUpdateDirectorUpdateAnimationBegin: 1
+    _preLateUpdateLegacyAnimationUpdate: 1
+    _preLateUpdateDirectorUpdateAnimationEnd: 1
+    _preLateUpdateDirectorDeferredEvaluate: 1
+    _preLateUpdateUIElementsUpdatePanels: 1
+    _preLateUpdateEndGraphicsJobsAfterScriptUpdate: 1
+    _preLateUpdateConstraintManagerUpdate: 1
+    _preLateUpdateParticleSystemBeginUpdateAll: 1
+    _preLateUpdatePhysics2DLateUpdate: 1
+    _preLateUpdatePhysicsLateUpdate: 1
+    _preLateUpdateScriptRunBehaviourLateUpdate: 1
+  _playerLoopPostLateUpdateConfig:
+    _postLateUpdate: 1
+    _postLateUpdatePlayerSendFrameStarted: 1
+    _postLateUpdateDirectorLateUpdate: 1
+    _postLateUpdateScriptRunDelayedDynamicFrameRate: 1
+    _postLateUpdatePhysicsSkinnedClothBeginUpdate: 1
+    _postLateUpdateUpdateRectTransform: 1
+    _postLateUpdatePlayerUpdateCanvases: 1
+    _postLateUpdateUpdateAudio: 1
+    _postLateUpdateVFXUpdate: 1
+    _postLateUpdateParticleSystemEndUpdateAll: 1
+    _postLateUpdateEndGraphicsJobsAfterScriptLateUpdate: 1
+    _postLateUpdateUpdateCustomRenderTextures: 1
+    _postLateUpdateXRPostLateUpdate: 1
+    _postLateUpdateUpdateAllRenderers: 1
+    _postLateUpdateUpdateLightProbeProxyVolumes: 1
+    _postLateUpdateEnlightenRuntimeUpdate: 1
+    _postLateUpdateUpdateAllSkinnedMeshes: 1
+    _postLateUpdateProcessWebSendMessages: 1
+    _postLateUpdateSortingGroupsUpdate: 1
+    _postLateUpdateUpdateVideoTextures: 1
+    _postLateUpdateUpdateVideo: 1
+    _postLateUpdateDirectorRenderImage: 1
+    _postLateUpdatePlayerEmitCanvasGeometry: 1
+    _postLateUpdatePlayerRenderUIEBatchModeOffscreen: 1
+    _postLateUpdatePhysicsSkinnedClothFinishUpdate: 1
+    _postLateUpdateFinishFrameRendering: 1
+    _postLateUpdateBatchModeUpdate: 1
+    _postLateUpdatePlayerSendFrameComplete: 1
+    _postLateUpdateUpdateCaptureScreenshot: 1
+    _postLateUpdatePresentAfterDraw: 1
+    _postLateUpdateClearImmediateRenderers: 1
+    _postLateUpdatePlayerSendFramePostPresent: 1
+    _postLateUpdateUpdateResolution: 1
+    _postLateUpdateInputEndFrame: 1
+    _postLateUpdateTriggerEndOfFrameCallbacks: 1
+    _postLateUpdateGUIClearEvents: 1
+    _postLateUpdateShaderHandleErrors: 1
+    _postLateUpdateResetInputAxis: 1
+    _postLateUpdateThreadedLoadingDebug: 1
+    _postLateUpdateProfilerSynchronizeStats: 1
+    _postLateUpdateMemoryFrameMaintenance: 1
+    _postLateUpdateExecuteGameCenterCallbacks: 1
+    _postLateUpdateXRPreEndFrame: 1
+    _postLateUpdateProfilerEndFrame: 1
+    _postLateUpdateGraphicsWarmupPreloadedShaders: 1
+    _postLateUpdateObjectDispatcherPostLateUpdate: 1
